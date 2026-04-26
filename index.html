@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dadyar Jalal is a fullstack developer focused on scalable backend systems, clean architecture, and real-world applications."
+    />
+    <title>Dadyar Jalal | Fullstack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="site-shell">
+      <header class="nav">
+        <a class="brand" href="#top" aria-label="Dadyar Jalal home">
+          <span class="brand-mark">DJ</span>
+          <span>Dadyar Jalal</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-bg" aria-hidden="true">
+            <span class="mesh mesh-one"></span>
+            <span class="mesh mesh-two"></span>
+            <span class="mesh mesh-three"></span>
+            <span class="particle p1"></span>
+            <span class="particle p2"></span>
+            <span class="particle p3"></span>
+            <span class="particle p4"></span>
+          </div>
+
+          <div class="hero-content reveal">
+            <p class="eyebrow">Fullstack Developer / Spring Boot Backend Systems</p>
+            <h1>Dadyar Jalal</h1>
+            <p class="tagline">Building fullstack products on backend systems that hold up in production.</p>
+            <p class="intro">
+              I design clean React interfaces around secure APIs, structured data, and practical system architecture.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary magnetic" href="#projects">View Projects</a>
+              <a class="button secondary magnetic" href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="hero-system reveal delay-1" aria-label="Backend system preview">
+            <div class="system-card api-card">
+              <div class="card-topline">
+                <span class="status-dot"></span>
+                <span>Spring Boot API</span>
+              </div>
+              <div class="endpoint-row">
+                <span>POST</span>
+                <code>/videos/secure-upload</code>
+              </div>
+              <div class="endpoint-row">
+                <span>GET</span>
+                <code>/courses/{id}/access</code>
+              </div>
+              <div class="endpoint-row">
+                <span>PATCH</span>
+                <code>/doctor/content-policy</code>
+              </div>
+            </div>
+            <div class="system-card database-card">
+              <div class="db-rings" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <p>MongoDB</p>
+                <strong>Course content, access rules, video metadata</strong>
+              </div>
+            </div>
+            <div class="system-card metrics-card">
+              <span class="metric-label">System Focus</span>
+              <div class="metric-grid">
+                <span>Secure</span>
+                <span>Structured</span>
+                <span>Scalable</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section featured-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Featured Case Study</p>
+            <h2>KurdDoctors <span>(LMS Platform)</span></h2>
+            <p>
+              A serious in-progress learning system built for medical education, creator control, and secure content delivery.
+            </p>
+          </div>
+
+          <article class="featured-project reveal">
+            <div class="project-copy">
+              <div class="project-label">In progress / real-world system</div>
+              <div class="case-grid">
+                <div>
+                  <h3>Problem</h3>
+                  <p>
+                    Medical doctors do not have a secure platform to publish educational videos, leading to content leaks and lack of control.
+                  </p>
+                </div>
+                <div>
+                  <h3>Solution</h3>
+                  <p>
+                    A Learning Management System where doctors can securely upload, organize, and manage educational content.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature-list">
+                <span>Secure video management</span>
+                <span>Controlled access system</span>
+                <span>Structured educational content</span>
+              </div>
+
+              <div class="stack-row" aria-label="Tech stack">
+                <span>Spring Boot</span>
+                <span>React</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+
+            <div class="project-visual" aria-label="KurdDoctors future screenshot placeholder">
+              <div class="visual-frame">
+                <img
+                  class="architecture-preview"
+                  src="assets/kurd-doctors-system.png"
+                  alt="KurdDoctors LMS architecture preview showing doctor upload, secure access, and MongoDB content metadata"
+                />
+                <span class="visual-badge">System preview</span>
+              </div>
+              <p>Future preview area for dashboard, course, and secure video screens.</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="section other-projects">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Additional Build Areas</p>
+            <h2>Systems Over Quantity</h2>
+            <p>Minimal project cards reserved for work that shows structure, backend thinking, and useful product decisions.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="mini-card reveal">
+              <span class="card-index">01</span>
+              <h3>Service Architecture Experiments</h3>
+              <p>API structure, validation, persistence patterns, and clean separation between client and server concerns.</p>
+              <a href="#contact">Discuss work</a>
+            </article>
+            <article class="mini-card reveal delay-1">
+              <span class="card-index">02</span>
+              <h3>React Product Interfaces</h3>
+              <p>Focused UI builds connected to real data flows, not isolated screens without behavior behind them.</p>
+              <a href="#contact">Request details</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Technical Stack</p>
+            <h2>Grouped Like Real Work</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group reveal">
+              <h3>Frontend</h3>
+              <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>React</span>
+              </div>
+            </div>
+            <div class="skill-group reveal delay-1">
+              <h3>Backend</h3>
+              <div class="skill-tags">
+                <span>Spring Boot</span>
+              </div>
+            </div>
+            <div class="skill-group reveal delay-2">
+              <h3>Database</h3>
+              <div class="skill-tags">
+                <span>MySQL</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+            <div class="skill-group reveal delay-3">
+              <h3>Tools</h3>
+              <div class="skill-tags">
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about-section">
+          <div class="about-panel reveal">
+            <p class="eyebrow">About</p>
+            <h2>Fullstack developer focused on real systems.</h2>
+            <p>
+              I build applications with clean frontend structure, strong Spring Boot backends, and data models that support real workflows.
+              My experience across different environments, including hardware shops, shaped a practical approach to solving problems,
+              communicating clearly, and helping teams move with confidence.
+            </p>
+          </div>
+        </section>
+
+        <section id="blog" class="section blog-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Writing</p>
+            <h2>Future Technical Notes</h2>
+            <p>Short articles planned around backend architecture, product decisions, and real build lessons.</p>
+          </div>
+
+          <div class="blog-grid">
+            <article class="blog-card reveal">
+              <span>Architecture</span>
+              <h3>Designing secure content access for LMS platforms</h3>
+              <p>Planned note on permissions, video metadata, and controlled publishing flows.</p>
+            </article>
+            <article class="blog-card reveal delay-1">
+              <span>Backend</span>
+              <h3>Spring Boot patterns that keep APIs maintainable</h3>
+              <p>Planned breakdown of service boundaries, DTOs, validation, and persistence choices.</p>
+            </article>
+            <article class="blog-card reveal delay-2">
+              <span>Product</span>
+              <h3>Turning field problems into software requirements</h3>
+              <p>Planned reflection on communication, team coordination, and practical discovery.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section demos-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Live Demos</p>
+            <h2>Project Access</h2>
+            <p>Clear space for hosted demos and source links as systems become public.</p>
+          </div>
+
+          <div class="demo-board reveal">
+            <a class="demo-link" href="#" aria-label="KurdDoctors live demo placeholder">
+              <span>Live Demo</span>
+              <strong>KurdDoctors LMS</strong>
+              <small>Coming soon</small>
+            </a>
+            <a class="demo-link" href="#" aria-label="GitHub repository placeholder">
+              <span>GitHub</span>
+              <strong>Repository Links</strong>
+              <small>Add public links here</small>
+            </a>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <div class="contact-card reveal">
+            <div>
+              <p class="eyebrow">Contact</p>
+              <h2>Have a serious system to build?</h2>
+              <p>Reach out for backend-heavy fullstack work, LMS platforms, dashboards, and API-driven products.</p>
+            </div>
+            <div class="contact-links">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=your@email.com&su=Work%20Opportunity&body=Hello%2C%20I%20saw%20your%20portfolio..."target="_blank">Email Me</a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
